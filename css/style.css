@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  min-height: 765px;
+  background-size: cover;
+}
+.container{
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1220px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+.navbar__name{
+  display: flex;
+  align-items: center;
+  margin-left: 275px;
+}
+.navbar__list{
+  margin-left: 120px;
+  display: flex;
+}
+.navbar__item{
+  margin-right: 105px;
+  list-style: none;
+  color: #e4e4e4;
+  font-size: 18px;
+  line-height: 21px;
+}
+a{
+  color: unset;
+  text-decoration: none ;
+}
